@@ -49,8 +49,8 @@ public class SubscriberServiceImpl implements SubscriberService {
             }
         }
         if (trafficInternet != 0) {
-            System.out.printf("\nІнтернет-трафік для %s серед абонентів: %#.2f,Гб\n", city, trafficInternet);
-        } else System.out.printf("\nІнтернет-трафік для %s серед абонентів відсутній", city);
+            System.out.printf("\nІнтернет-трафік для абонентів з міста %s: %#.2f Гб\n", city, trafficInternet);
+        } else System.out.printf("\nІнтернет-трафік для міста %s серед абонентів відсутній", city);
     }
 
     @Override

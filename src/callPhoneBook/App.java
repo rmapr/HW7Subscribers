@@ -19,7 +19,7 @@ public class App {
 
 //c) відомості про абонентів ПІБ, номер телефону, баланс - де перший бука прізвища передається як параметр.
         char firstLetter = 'П';
-        System.out.println("\nАбоненти, у кого перша буква " + firstLetter + ":");
+        System.out.println("\nАбоненти, у кого перша буква прізвища " + firstLetter + ":");
         subsServiceImpl.subscribersSearchFirstLetterLastName(subsInitArray, firstLetter);
 
 //d) сумарне споживання трафіку інтернету для певного міста
